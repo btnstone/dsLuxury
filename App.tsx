@@ -16,6 +16,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import './global.css';
 
 import {
   Colors,
@@ -77,6 +78,7 @@ function App(): React.JSX.Element {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
+            <Text className={'text-red-500 text-3xl'}>test</Text>
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
