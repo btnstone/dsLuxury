@@ -2,12 +2,12 @@ import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import './global.css';
 import { NavigationContainer } from '@react-navigation/native';
-import BottomTabNavigator from './src/index.tsx';
+import MainNavigator from './src/navigation/MainNavigator.tsx';
 
 const MainApp = (): React.JSX.Element => (
   <SafeAreaProvider>
     <NavigationContainer>
-      <BottomTabNavigator />
+      <MainNavigator  />
     </NavigationContainer>
   </SafeAreaProvider>
 );
