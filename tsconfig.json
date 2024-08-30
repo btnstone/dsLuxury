@@ -1,3 +1,9 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",  // 这设置了基础路径为项目根目录
+    "paths": {
+      "~/*": ["src/*"]   // `~` 符号也指向 src 目录
+    }
+  }
 }
