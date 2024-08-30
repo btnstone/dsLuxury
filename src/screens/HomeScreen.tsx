@@ -6,7 +6,7 @@ import {useNavigation} from '@react-navigation/native';
 const HomeScreen = (): React.JSX.Element => {
   const navigation = useNavigation<HomeScreenNavigationProp>();
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View className={'flex-1 justify-center items-center'}>
       <Text>Home Screen</Text>
       <Button
         title="Go to Details"
