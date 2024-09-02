@@ -3,7 +3,7 @@ import {View, Text} from 'react-native';
 
 const SettingsScreen = (): React.JSX.Element => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View className={'flex-1 justify-center items-center'}>
       <Text>Settings Screen</Text>
     </View>
   );
